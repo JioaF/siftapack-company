@@ -1,0 +1,49 @@
+#footer{
+    padding-top: 5%;
+    background-color: #474747;
+    color: rgba($color: $color-2, $alpha: 1.0);
+    .footer-description{
+        margin-bottom: 5%;
+        display: flex;
+        gap: 30%;
+        #contact{
+            margin-left: 20%;
+            .hero-title{
+                margin: 5% auto;
+                h5{
+                    font-size: $font-size_medium;
+                }
+                p{
+                    color: rgba($color: $color-2, $alpha: 1.0);
+                    font-size: $font-size_small;
+                }
+            }
+            #contact-list{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                .contact-item{
+                    padding: 2%;
+                }
+            }
+        }
+        #sitemap{
+            #sitemap-list{
+                list-style: none;
+                .sitemap-item{
+                    padding: 2%;
+                    a{
+                        color: rgba($color: $color-2, $alpha: 1.0);
+                    }
+                }
+            }
+        }
+    }
+    .footer-copyright{
+        background-color: rgba(0, 0, 0, 1);
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: rgba($color: $color-2, $alpha: 1.0);
+    }
+}

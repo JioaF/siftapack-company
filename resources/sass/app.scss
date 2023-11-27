@@ -1,0 +1,20 @@
+// variables
+@import 'variables';
+
+// import all components
+@import 'components/**.scss';
+
+// import all style pages
+@import 'pages/**.scss';
+
+body{
+    margin: 0;
+    font-family: $font-family;
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        background-color: rgba($color: $color-3, $alpha: .4);
+    }
+}
