@@ -5,16 +5,24 @@
         </a>
     </div>
     <ul class="nav-navigation">
-        <li>
+        <li class="nav-link">
             <a href="">Beranda</a>
         </li>
-        <li class="dropdown">
-            <a href="">Produk</a>
+        <li class="dropdown nav-link">
+            <a href="#" class="dropdown-btn">Produk</a>
+            <ul class="dropdown-list">
+                <li>
+                    <a href="">Kardus Ramah Lingkungan</a>
+                </li>
+                <li>
+                    <a href="">Kardus Ciamik</a>
+                </li>
+            </ul>
         </li>
-        <li class="active">
+        <li class="active nav-link">
             <a href="">Karir</a>
         </li>
-        <li class="dropdown">
+        <li class="dropdown nav-link">
             <a href="">Media</a>
         </li>
     </ul>

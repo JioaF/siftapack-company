@@ -30,7 +30,7 @@
         height: 80px;
         width: 50%;
         list-style-type: none;
-        li{
+        li.nav-link{
             float: left;
             a{
                 font-size: 20px;
@@ -44,6 +44,28 @@
         background-color: rgba($color: $color-3, $alpha: .5);
         font-weight: $font-weight_bold;
         text-decoration: underline;
+    }
+}
+.dropdown{
+    .dropdown-btn{
+        display: block;
+        &::after{
+            padding-left: 10px;
+            content: '🠷';
+        }
+        &:hover::after{
+            content: '🠵';
+        }
+    }
+    .dropdown-list{
+        display: none;
+        padding: 0;
+        list-style-type: none;
+        position: absolute;
+        background-color: #fff;
+    }
+    &:hover .dropdown-list{
+        display: block;
     }
 }
 
